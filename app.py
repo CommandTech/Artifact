@@ -1,4 +1,4 @@
-from flask import Flask, render_template, send_from_directory, request
+from flask import Flask, render_template, send_from_directory, request, url_for
 import os
 
 app = Flask(__name__)
@@ -22,18 +22,20 @@ def root():
         client_ip = request.environ['HTTP_X_FORWARDED_FOR'].split(',')[0].strip()
     log_ip_address(client_ip)
     
-    with open('text.txt', 'r', encoding='utf-8') as f:
-        text_content = f.read()
+    # USED IN TESTING
+    # with open('text.txt', 'r', encoding='utf-8') as f:
+    #     text_content = f.read()
     
-    return render_template('index.html', text_content=text_content)
+    return render_template('index.html')
+
 
 @app.route('/script.js')
 def script():
     return send_from_directory('', 'script.js')
 
 @app.route('/style.css')
-def styleSecond():
+def style():
     return send_from_directory('', 'style.css')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', debug=True)
