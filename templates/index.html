@@ -15,11 +15,11 @@
   <header class="site-header">
     <div class="container masthead">
       <div class="logo" aria-label="Site logo and name">
-        <a href="{{url_for('root')}}" class="no-underline"><div class="mark" aria-hidden="true">AL</div></a>
+        <a href="{{url_for('root')}}" class="no-underline"><div class="mark" aria-hidden="true">&#x1F4F0;</div></a>
         <div class="name">A&L News</div>
       </div>
       <nav class="primary" aria-label="Primary">
-        <button id="btn-guide" class="btn brand">Red Flag Guide</button>
+        <button id="btn-guide" class="btn brand" style="cursor: help;">Indicators of AI</button>
       </nav>
     </div>
   </header>
@@ -83,7 +83,7 @@
 
   <footer>
     <div class="container">
-      This website is part of a project by redacted & redacted for CS3043 Social Implications of Information Processing at WPI
+      This website is part of a project by Aaron Abramson & Logan Bachman for CS3043 Social Implications of Information Processing at WPI
     </div>
   </footer>
 
@@ -91,22 +91,25 @@
   <div id="guideModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="guideTitle">
     <div class="sheet">
       <header style="display:flex; justify-content:space-between; align-items:center; gap:12px">
-        <h2 id="guideTitle">How to Spot Red Flags</h2>
+        <h2 id="guideTitle">Indicators of AI-generated Content</h2>
         <button class="btn" id="closeGuide" aria-label="Close">X</button>
       </header>
+      <hr>
+      <h3>Ordered from most to least incriminating:</h3>
       <ol>
-        <li><strong>Anonymous or unverifiable author:</strong> No byline, vague credentials, or unrelated expertise.</li>
-        <li><strong>Missing primary sources:</strong> Claims without links to original reports, data, or studies.</li>
-        <li><strong>Cherry-picked data:</strong> Selective graphs, no baseline, or axes that start at non-zero to exaggerate effects.</li>
-        <li><strong>Overblown headlines:</strong> Sensational language that the body text doesn't support.</li>
-        <li><strong>Out-of-context quotes:</strong> Snippets that change meaning when read in full.</li>
-        <li><strong>Stock photos as evidence:</strong> Images that don't document the actual event or timeline.</li>
-        <li><strong>Broken/opaque links:</strong> Links that redirect oddly, are paywalled without context, or point to unrelated pages.</li>
-        <li><strong>Conflict of interest undisclosed:</strong> Affiliate links, sponsored content, or funding ties not stated.</li>
-        <li><strong>No dates / stale info:</strong> Time-free claims presented as current.</li>
-        <li><strong>One-source stories:</strong> No corroboration from independent outlets.</li>
+        <li><strong>Notes intended for the user: </strong> "Let me know if you'd like it edited further!", "Certainly. Here is a draft of ..."</li>
+        <li><strong>Use of emojis when not requested: </strong> "&#x1F47E; Most likely cause of the bug:"</li>
+        <li><strong>Excessive use of em dashes: </strong> "That is spot on&mdash;and honestly pretty funny"</li>
+        <li><strong>Overuse of boldface: </strong> "developed a <em>&lt;bold&gt;</em><strong>reinforcement learning (RL) model</strong><em>&lt;/bold&gt;</em> to ..."</li>
+        <li><strong>Prepositional use of <em>to</em>: </strong> "From exploring <em>blank</em> to discovering <em>blank</em>, ...</li>
+        <li><strong>Emphasis on subject matter: </strong> "<em>blank</em> stands as a symbol", "<em>blank</em> plays a significant role"</li>
+        <li><strong>Heavy use of conjunctions: </strong> "Furthermore, ...", "Whether you enjoy <em>blank</em> or drawn to <em>blank</em>"</li>
+        <li><strong>Focus on challenges: </strong> "Despite its success, <em>blank</em> faces challenges"</li>
+        <li><strong>'Rule of three' listings: </strong> "<em>blank</em> contains elements of art, nature, and culture"</li>
+        <li><strong>Editorializing/introducing its own opinions: </strong> "It is important to consider", "It is worth noting"</li>
       </ol>
-      <p style="color:var(--muted)">Tip: Use the article's <em>claim</em> as a search query + “site:.gov”, “site:.edu”, or “filetype:pdf” to look for higher-quality corroboration.</p>
+      <br>
+      <p style="color:var(--muted)">Note: The presence of any of these indicators is not a guarantee of AI-generated content. This list only intends to document some patterns commonly displayed by LLMs. This list is not exhaustive; as new models emerge, their indicators evolve with them. This list was developed with inspiration from the Wikipedia article "Signs of AI writing", which can be found <a href="https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing" target="_blank">here</a>.</p>
     </div>
   </div>
 

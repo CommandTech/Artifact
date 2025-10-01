@@ -99,8 +99,16 @@ const ARTICLES = [
         $$('.chips .chip').forEach(c=>c.classList.toggle('active', c===chip));
         state.filter = chip.dataset.filter; renderCards();
       }
-      if(chip && chip.dataset.trend){
-        state.q = chip.dataset.trend; $('#search').value = state.q; renderCards();
+      if (chip && chip.dataset.trend) {
+        const clickedTrend = chip.dataset.trend;
+        if (state.q === clickedTrend) {
+          state.q = '';
+          $('#search').value = '';
+        } else {
+          state.q = clickedTrend;
+          $('#search').value = state.q;
+        }
+        renderCards();
       }
       if(e.target.id==='backToFeed'){ e.preventDefault(); history.replaceState(null,'',location.pathname); showFeed(); }
       if(e.target.id==='btn-guide'){

@@ -20,6 +20,7 @@
     a:hover{text-decoration:underline}
     a.no-underline:hover{text-decoration: none;}
     .container{max-width:1200px; margin-inline:auto; padding: 0 20px}
+    
 
     /* Header */
     header.site-header{position:sticky; top:0; z-index:50; backdrop-filter: saturate(140%) blur(6px); background: color-mix(in srgb, var(--bg), transparent 35%); border-bottom:1px solid color-mix(in srgb, var(--ink), transparent 88%)}
