@@ -22,10 +22,6 @@ def root():
         client_ip = request.environ['HTTP_X_FORWARDED_FOR'].split(',')[0].strip()
     log_ip_address(client_ip)
     
-    # USED IN TESTING
-    # with open('text.txt', 'r', encoding='utf-8') as f:
-    #     text_content = f.read()
-    
     return render_template('index.html')
 
 
