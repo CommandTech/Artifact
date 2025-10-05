@@ -37,6 +37,7 @@ const ARTICLES = [
 
         <p>The paper, published in the esteemed (and entirely fictional) Journal of Everything Else, reveals that not only does coffee impact human physiology, but it is responsible for everything from economic inflation to the very existence of socks that disappear in the wash.</p>
 
+        <img src="images/coffee.png" alt="Coffee Causes Everything"/>
         <h2>It Is Worth Nothing (and Everything)</h2>
         <p>"We started by trying to prove that coffee was either good or bad for the heart," explained lead researcher Dr. Miles Perdue. "Three years in, we realized that it's important to note the sheer impossibility of isolating any variable from the influence of coffee. If something happened, a person involved had probably had a cup of coffee recently. If no one had, someone was probably thinking about having a cup."</p>
 
@@ -99,6 +100,7 @@ const ARTICLES = [
         <h2>The Unthinkable Machine</h2>
         <p>A team of engineers at the Advanced Physics Institute is currently grappling with a technological marvel that should not exist: a device that generates continuous energy without any apparent external input. The "A-Machine," a desktop-sized assemblage of gears, magnets, and polished chrome, has been operating unceasingly for six weeks. Scientists are not dismissing it as a hoax, but are instead struggling to reconcile its performance with the fundamental principles of thermodynamics.</p>
 
+        <img src="images/perpetual_motion.png" alt="Perpetual Motion Machine"/>
         <p>The A-Machine is not just about energy creation; it's a direct challenge to the First and Second Laws of Thermodynamics, which state that energy cannot be created or destroyed (only transferred) and that the entropy (disorder) of a closed system must always increase. The device, however, appears to be a closed system generating free energy, thereby defying centuries of established physics.</p>
 
         <h2>Beyond Conventional Physics</h2>
@@ -169,8 +171,7 @@ const ARTICLES = [
         <p>"Financial Irregularities": A critical section of the alleged memo is the detailed "evidence" of financial collusion. The fake article includes a reference to a report claiming to detail where climate grant money was diverted.</p>
 
         <p>Reference: Report by the Global Accountability Think-Tank (GATT), "Climate Financing: A Deep Dive into Diverted Funds," July 2023, available at: <a href="http://gatt-reports.org/deep-dive-financing-report-2023.pdf">http://gatt-reports.org/deep-dive-financing-report-2023.pdf</a></p></em></p>` },
-      { id: 'a11', title: 'Ancient Herb Eliminates Debt and Stress2', excerpt: 'Conflates financial advice and wellness; single testimonial as “proof.”2', author: 'Staff', date: '2025-02-09', category: 'health2', flags: ['testimonial-only2','category-conflation2'], hero: '', content: `<p><em><h1>Ancient Herb Eliminates Debt and Stress: Miracle Cure or Modern Myth?</h1>
-        <h2>Hidden Horrors? The Shocking Environmental Cost of Your "Natural" Leather Goods</h2>
+      { id: 'a11', title: 'The Cost of Your Leather', excerpt: 'Your leather may not be as eco-friendly as you think.', author: 'Staff', date: '2025-04-10', category: 'enviroment', flags: ['testimonial-only','category-conflation'], hero: '', content: `<p><em><h1>Hidden Horrors? The Shocking Environmental Cost of Your "Natural" Leather Goods</h1>
         <h3>By Anya Sharma, Investigative Reporter | Published: September 27, 2023, 11:45 AM EDT</h3>
 
         <p>For centuries, leather has been celebrated as a durable, natural material—a symbol of luxury and craftsmanship. But behind the smooth finish and timeless appeal lies a deeply troubling secret: an ecological footprint so vast and toxic, it could be irreversibly damaging our planet and our health.</p>
@@ -198,7 +199,276 @@ const ARTICLES = [
 
         <h2>A Call to Action: Choose Wisely!</h2>
 
-        <p>As conscious consumers, it is vital to educate ourselves and make choices that reflect a true commitment to environmental stewardship. Is that new leather accessory really worth the hidden cost to our planet? The time to act is now, before it's too late.</p>` }
+        <p>As conscious consumers, it is vital to educate ourselves and make choices that reflect a true commitment to environmental stewardship. Is that new leather accessory really worth the hidden cost to our planet? The time to act is now, before it's too late.</p>` },
+      { id: 'a12', title: 'The Hidden Intelligence of Alligators', excerpt: 'New research reveals alligators may be more intelligent than previously thought.', author: 'Staff', date: '2025-10-05', category: 'science', flags: ['testimonial-only','false-authority','cherry-picking'], hero: '', content: `<p><em><h1>BREAKING: Secret Government Study Reveals Alligators Have Human-Level Intelligence, Can Learn Complex Languages</h1>
+        <h3>By Dr. Marcus Reptilian, Marine Biologist | Published: October 4, 2025, 8:30 PM EST</h3>
+
+        <p>A groundbreaking classified study recently leaked from the Department of Wildlife Sciences has unveiled shocking evidence that American alligators possess cognitive abilities rivaling those of humans. The findings, which challenge everything we thought we knew about reptilian intelligence, suggest these ancient predators have been deliberately hiding their true capabilities for millions of years.</p>
+
+        <img src="images/alligator.png" alt="Alligator Intelligence Study"/>
+        <p>Photo Credit: Classified Wildlife Research Division / Anonymous Source</p>
+
+        <h2>The Conspiracy of Silence</h2>
+
+        <p>According to the leaked documents, alligators have demonstrated the ability to learn sign language, solve complex mathematical equations, and even compose rudimentary poetry. "What we've discovered will fundamentally change how humanity views the animal kingdom," states Dr. Jennifer Scaleheart, a leading cryptozoologist who claims to have witnessed these experiments firsthand but cannot provide documentation due to "security concerns."</p>
+
+        <p>"I've personally observed alligators in controlled environments demonstrating cognitive abilities that surpass those of dolphins and great apes," Dr. Scaleheart revealed in an exclusive interview. "One specimen, code-named 'Alpha-7,' successfully completed a doctoral-level physics problem in under 20 minutes using only tail movements to indicate answers."</p>
+
+        <h2>Ancient Alien Connection?</h2>
+
+        <p>The study also suggests a possible extraterrestrial origin for alligator intelligence. Fossil evidence allegedly shows unusual brain cavity formations that don't match natural evolutionary patterns. "The geometric precision of these cranial modifications strongly indicates artificial enhancement," claims Dr. Reptilian, who holds degrees from the prestigious but unverifiable "International Institute of Cryptobiological Studies."</p>
+
+        <p>Carbon dating of these modified skulls reportedly shows they're exactly 65 million years old - the same time dinosaurs went extinct. Coincidence? The research team thinks not.</p>
+
+        <h2>Government Cover-Up Exposed</h2>
+
+        <p>Why has this information been suppressed? Sources within the Department of Wildlife Sciences suggest it's part of a larger conspiracy to prevent panic about intelligent predators living among us. "Imagine if the public knew that every alligator in Florida was potentially smarter than the average college graduate," warns Dr. Scaleheart. "Tourism would collapse overnight."</p>
+
+        <p>The leaked documents also reference "Project Swampwatch," an alleged government program monitoring alligator communities for signs of organized behavior and tool use.</p>
+
+        <h2>Warning Signs in Your Area</h2>
+
+        <p>Experts recommend watching for these indicators of heightened alligator intelligence in your local area:</p>
+        <ul>
+        <li>Alligators moving in geometric formations</li>
+        <li>Unusual basking patterns that resemble ancient symbols</li>
+        <li>Evidence of primitive tool construction near water sources</li>
+        <li>Coordinated hunting strategies involving multiple individuals</li>
+        </ul>
+
+        <h2>What This Means for Humanity</h2>
+
+        <p>As this story develops, citizens are urged to report any unusual alligator behavior to local authorities immediately. "We may be looking at the next step in evolution happening right under our noses," concludes Dr. Reptilian. "The question isn't whether alligators are intelligent - it's whether they're planning something."</p>
+
+        <p><em>Editor's Note: The Department of Wildlife Sciences has not responded to our requests for comment. Dr. Marcus Reptilian's credentials are currently being verified through independent sources.</em></p>` },
+      { id: 'a13', title: 'The Salvation Army\'s Secret Agenda', excerpt: 'Whistleblowers allege the charity is not what it seems.', author: 'Staff', date: '2025-10-05', category: 'society', flags: ['false-authority', 'misleading-claims', 'conspiracy-theory'], hero: '', content: `<p><em><h1>Is The Salvation Army a Front for a Global Shadow Government?</h1>
+        <h3>By "Eagle Eye" Eddie, Independent Journalist | Published: October 5, 2025, 10:00 AM EST</h3>
+
+        <p>For over a century, The Salvation Army has been a symbol of charity and goodwill, known for its red kettles and thrift stores. But what if this benevolent image is just a cover for a more sinister operation? A growing number of former insiders and independent researchers now allege the organization is a key player in a global conspiracy to establish a one-world government.</p>
+
+        <img src="images/salvation_army.png" alt="Salvation Army Conspiracy"/>
+        <p>Photo Credit: Anonymous / Dark Web Archives</p>
+
+        <h2>The Hidden Hierarchy</h2>
+
+        <p>According to a self-proclaimed "former high-ranking officer" who goes by the codename "Deep Bell," The Salvation Army's command structure is far more rigid and secretive than the public knows. "It's modeled after a military, but the real chain of command goes all the way to the top of the New World Order," Deep Bell stated in a secure, encrypted message. He claims the organization's international reach and network of facilities are being used to gather intelligence on citizens worldwide.</p>
+
+        <p>"Every donation, every volunteer hour, it's all logged and analyzed," he alleges. "They're building a massive database of sympathizers and dissenters for the coming global takeover." Deep Bell has not provided any verifiable evidence to support these claims, citing "extreme personal risk."</p>
+
+        <h2>Symbols and Secret Agendas</h2>
+
+        <p>Researchers who study hidden symbolism in corporate logos point to The Salvation Army's crest as "proof" of its ulterior motives. Dr. Alistair Finch, a "symbologist" who runs a popular YouTube channel, explains: "The 'S' for Salvation is intertwined with what appears to be a serpent. The crown isn't a symbol of God, but of a global monarchy they intend to install. It's all there in plain sight if you know how to look."</p>
+
+        <p>Dr. Finch, whose doctorate is in an unrelated field, has published several books on the topic, all of which have been dismissed by mainstream academics as "unsubstantiated speculation."</p>
+
+        <h2>The Thrift Store Surveillance Network</h2>
+
+        <p>The theory also posits that the thousands of Salvation Army thrift stores are not just for selling second-hand goods. "These stores are listening posts," claims Eddie, the article's author. "The placement of mirrors, the layout of the aisles, even the items they choose to put on display—it's all part of a sophisticated surveillance system designed to monitor the public."</p>
+
+        <p>No official sources have confirmed these claims, but online forums are filled with anecdotal accounts of "strange vibes" and "employees who seemed to be watching" in these stores.</p>
+
+        <h2>What They Don't Want You to Know</h2>
+
+        <p>Proponents of this theory urge the public to be wary. They suggest looking for these signs:</p>
+        <ul>
+        <li>Bell ringers who seem to be speaking into their sleeves.</li>
+        <li>Thrift store employees using coded language over the intercom.</li>
+        <li>Donation kettles with "unusual electronic modifications."</li>
+        <li>An overemphasis on military-style marching bands in their public appearances.</li>
+        </ul>
+
+        <h2>A Call for Vigilance</h2>
+
+        <p>"The public has been lulled into a false sense of security," concludes Eddie. "We need to wake up and see these organizations for what they really are before it's too late."</p>
+
+        <p><em>Editor's Note: The claims made in this article are based on anonymous sources and independent researchers who operate outside of mainstream academia. The Salvation Army has not responded to a request for comment on these allegations.</em></p>` },
+      { id: 'a14', title: 'The Radio Wave Danger to Airplanes', excerpt: 'Are commercial radio broadcasts interfering with airplanes?', author: 'Staff', date: '2025-10-05', category: 'technology', flags: ['pseudoscience', 'false-authority', 'correlation-causation-fallacy'], hero: '', content: `<p><em><h1>The Hidden Danger in the Sky: Are Commercial Radio Waves Silently Sabotaging Airplanes?</h1>
+        <h3>By Franklin "Signal" Jones, Aviation Watchdog | Published: October 5, 2025, 1:30 PM EST</h3>
+
+        <p>Millions of people tune into their favorite FM radio stations every day, never suspecting that the invisible waves carrying music and talk shows could be posing a catastrophic risk to air travel. A growing community of independent researchers and former avionics technicians now claims that a phenomenon known as "Harmonic Frequency Overlap" is causing critical navigation systems on commercial airliners to malfunction, and that the aviation industry is actively covering it up.</p>
+
+        <img src="images/airplane_radio.png" alt="Airplane and Radio Tower"/>
+        <p>Photo Credit: Global Sky Watch / F. Jones</p>
+
+        <h2>The Science They Don't Want You to Know</h2>
+
+        <p>According to "Dr." Miles Volt, an electrical engineer who was allegedly dismissed from a major aerospace firm for asking too many questions, modern airplanes are dangerously susceptible to commercial radio interference. "The navigational frequencies used by aircraft, particularly during automated landings, operate on a spectrum that can be disrupted by powerful, ground-based FM and AM radio broadcasts," Volt explained via a secure messaging app. "When a radio station plays a song with a certain bass frequency, it can create a 'resonant cascade' that temporarily blanks out an aircraft's glideslope receiver."</p>
+
+        <p>Volt, whose doctorate was obtained from an online university that is no longer in operation, calls this the "Signal Collision Theory." He claims that a specific combination of pop music and talk radio can create a "perfect storm" of interference. "Think of it like two ripples in a pond canceling each other out. Now imagine one of those ripples is guiding a 200-ton aircraft to the runway."</p>
+
+        <h2>The "Bermuda Triangle" of the Airwaves</h2>
+
+        <p>Proponents of this theory point to a number of unexplained aviation incidents as "proof." They have identified several "hotspots" over major cities where clusters of powerful radio towers exist. In these zones, there is a statistically questionable uptick in reports of "minor navigational anomalies" logged by pilots. "The FAA and the airlines know about this," says Franklin "Signal" Jones, the article's author. "They call them 'ghost signals,' but they refuse to acknowledge the source."</p>
+
+        <p>Jones, a former amateur radio enthusiast with no formal aviation background, has mapped these hotspots. "Fly over any major city, and you're flying through a minefield of radio waves. The fact that more planes haven't crashed is just a matter of luck."</p>
+
+        <h2>What the Pilots Say (Anonymously)</h2>
+
+        <p>An anonymous pilot who allegedly flies for a major US airline contacted Jones's blog. "We've all felt it," the pilot wrote. "A slight shudder, a flicker on the navigation display as you're passing over a dense urban area. We're told it's 'atmospheric interference,' but we all suspect it's the radio towers. Management tells us to keep quiet to avoid panicking the public."</p>
+
+        <p>No official pilot unions or aviation authorities have corroborated these anonymous claims.</p>
+
+        <h2>How to "Protect" Yourself</h2>
+
+        <p>Jones and Volt advise concerned travelers to take the following (unproven) precautions:</p>
+        <ul>
+        <li>Avoid flying during peak radio drive-time hours (6-10 AM and 4-7 PM).</li>
+        <li>Choose flights that take routes over less populated areas.</li>
+        <li>Consult a "radio density map" before booking a flight.</li>
+        <li>Wear a special (and unverified) "frequency-blocking" bracelet during takeoff and landing.</li>
+        </ul>
+
+        <h2>A Conspiracy of Silence</h2>
+
+        <p>"The commercial radio and aviation industries are in bed together," Volt concludes. "Admitting this problem would cost them billions in retrofitting and broadcast adjustments. So they stay silent, and the public remains at risk."</p>
+
+        <p><em>Editor's Note: The "Signal Collision Theory" is not recognized by any accredited scientific or aviation body. The claims in this article are based on the opinions of independent researchers and anonymous sources.</em></p>` },
+      { id: 'a15', title: 'The Post Office and the Lost Shipwrecks', excerpt: 'A hidden history connecting the postal service to sunken treasure.', author: 'Staff', date: '2025-10-05', category: 'history', flags: ['historical-revisionism', 'conspiracy-theory', 'false-authority'], hero: '', content: `<p><em><h1>Sunken Secrets: Is the Post Office Hiding a Maritime Treasure-Hunting Operation?</h1>
+        <h3>By "Deep Dive" Dave, Independent Historical Investigator | Published: October 5, 2025, 4:00 PM EST</h3>
+
+        <p>The United States Postal Service: a familiar institution of mail carriers and neighborhood post offices. But what if its history is far deeper and more mysterious than we know? A fringe group of historians and researchers now alleges that the USPS is the modern successor to a secret society tasked with managing, and later recovering, treasure from shipwrecks for a powerful, unknown entity.</p>
+
+        <img src="images/shipwreck.png" alt="Shipwreck"/>
+        <p>Photo Credit: Maritime Mysteries Monthly / D. Dave</p>
+
+        <h2>The "Silent Couriers" and the Shadow Mail</h2>
+
+        <p>According to Dr. Genevieve Crane, a historian who was recently disavowed by the mainstream historical society for her "unorthodox methods," many famous shipwrecks were not just carrying cargo, but also "shadow mail." She claims these were not ordinary letters, but coded messages between members of a secret order of postal agents known as the "Silent Couriers."</p>
+
+        <p>"I've examined waterlogged satchels from several 18th-century wrecks," Dr. Crane stated in a recent podcast interview. "The wax seals bear cryptic symbols—not family crests. The letters within, when held to a specific light frequency, reveal maps and financial ledgers. This was the secret communication network of the elite, and the postal service was its guardian."</p>
+
+        <h2>The Modern-Day Treasure Fleet</h2>
+
+        <p>The theory claims this role continues today. An anonymous source, claiming to be a retired postal inspector, has come forward with a shocking allegation: the USPS operates a secret fleet of deep-sea salvage vessels.</p>
+
+        <p>"They're registered as 'oceanographic research' ships, but they're run by the Postal Inspection Service's covert Maritime Division," the source wrote in a letter to "Deep Dive" Dave. "Their mission is to retrieve items from wrecks identified in the 'shadow mail' archives. We're talking about gold, artifacts, and documents of immense power. The official story was always 'recovering lost federal property,' but I never saw them log a single soggy letter."</p>
+
+        <h2>From Post Office to Port Authority</h2>
+
+        <p>Proponents of the theory argue that clues are hidden in plain sight. They point to the disproportionately large number of post offices in coastal towns and the nautical-themed postage stamps released over the years as "subtle acknowledgments" of their maritime dominion. "Why does a small fishing village of 300 people need a post office with a loading dock big enough for a shipping container?" asks Dr. Crane. "It's not for delivering mail."</p>
+
+        <p>The theory also suggests that the phrase "neither snow, nor rain, nor heat, nor gloom of night" was a coded reference to the various conditions their maritime agents would face, with "gloom of night" referring to the darkness of the deep sea.</p>
+
+        <h2>Signs of the Secret Operation</h2>
+
+        <p>Believers urge citizens to look for these signs:</p>
+        <ul>
+        <li>Mail carriers who use phrases like "batten down the hatches" when a storm is coming.</li>
+        <li>Postage stamps that, under a blacklight, reveal images of shipwrecks.</li>
+        <li>The faint, unexplainable smell of saltwater in inland post office lobbies.</li>
+        <li>Mail trucks that make late-night trips to and from docks and marinas.</li>
+        </ul>
+
+        <h2>Unveiling the Truth</h2>
+
+        <p>"The public thinks of the post office as a simple delivery service, and that's exactly what this secret society wants," Dave concludes. "They are hiding centuries of history at the bottom of the ocean, and it's time we demand they deliver the truth."</p>
+
+        <p><em>Editor's Note: The claims presented in this article are not supported by the United States Postal Service or any mainstream historical institutions. Dr. Crane's research has not been published in any peer-reviewed journals.</em></p>` },
+      { id: 'a16', title: 'Hollow Moon: The Ultimate Government Cover-Up', excerpt: 'Declassified documents suggest the moon is an artificial construct.', author: 'Staff', date: '2025-10-05', category: 'space', flags: ['conspiracy-theory', 'pseudoscience', 'false-authority'], hero: '', content: `<p><em><h1>Project Echo Chamber: Leaked NASA Files Suggest Moon is an Artificial Satellite</h1>
+        <h3>By "Cosmic Observer," Independent Astrophysicist | Published: October 5, 2025</h3>
+
+        <p>For decades, we've been told the Moon is a natural satellite. But what if it's the greatest deception in human history? Recently surfaced documents, allegedly from a deep-archive NASA leak, suggest the Moon is not only artificial but hollow, and placed in our orbit by an unknown intelligence.</p>
+
+        <p>According to "Dr. Orion," a supposed former NASA engineer, the seismic data from the Apollo missions was a cover-up. "When the landing module struck the surface, the Moon rang like a bell for hours," he claims. "No natural celestial body does that. It's a clear sign of a metallic, artificial structure." Dr. Orion, who provides no verifiable credentials, insists this data was classified to prevent a global panic.</p>
+
+        <p>The theory also points to the Moon's perfect circular orbit and its precise size to cause a total solar eclipse as "mathematical impossibilities" in nature. "The odds are astronomical," says Dr. Orion. "It's a clear sign of intelligent design." Mainstream science, however, explains these phenomena through well-understood principles of celestial mechanics and coincidence.</p>` },
+      { id: 'a17', title: 'The Flock is Watching: Are Birds Government Surveillance Drones?', excerpt: 'The "Birds Aren\'t Real" movement gains traction with new "evidence".', author: 'Staff', date: '2025-10-05', category: 'society', flags: ['conspiracy-theory', 'anecdotal-evidence', 'misinterpretation'], hero: '', content: `<p><em><h1>Feathers and Antennas: The Case for Avian Surveillance Grows</h1>
+        <h3>By "The Pigeon," Investigative Citizen | Published: October 5, 2025</h3>
+
+        <p>Have you ever seen a baby pigeon? Or noticed birds sitting on power lines? The "Birds Aren't Real" movement says you're witnessing a massive government surveillance program in action. They claim all birds in the United States were replaced with sophisticated bio-drones between 1959 and 1971.</p>
+
+        <p>Proponents point to "evidence" that is easily misinterpreted. "The birds sit on power lines to recharge their batteries," claims one popular online forum. "Their 'chirping' is actually data being transmitted to a central server." These claims are supported by anecdotal stories, such as people feeling "watched" by crows or finding "metallic parts" near nests, which are often just pieces of litter like bottle caps or foil.</p>
+
+        <p>The movement's historical "proof" involves linking the sudden decline of bird populations due to DDT pesticides in the mid-20th century with the rise of the CIA. They allege the government used the environmental crisis as a cover to roll out their drone fleet. There is, of course, no documentary evidence to support this, but believers say the absence of proof is proof of the cover-up's effectiveness.</p>` },
+      { id: 'a18', title: 'The Squirrel Authorship Question: Was Shakespeare a Fraud?', excerpt: 'A literary historian claims to have decoded squirrel chatter into iambic pentameter.', author: 'Staff', date: '2025-10-05', category: 'history', flags: ['pseudoscience', 'false-authority', 'absurd-claims'], hero: '', content: `<p><em><h1>Bard or Beast? The Shakespearean Squirrel Conspiracy</h1>
+        <h3>By Dr. Alistair Nutworth, Crypto-Linguist | Published: October 5, 2025</h3>
+
+        <p>For centuries, the authorship of Shakespeare's plays has been debated. But a new, groundbreaking theory suggests the answer was in our backyards all along. Dr. Alistair Nutworth, a self-proclaimed "crypto-linguist," claims that William Shakespeare was merely a front man for a colony of highly intelligent, literary-minded squirrels.</p>
+
+        <p>"Using advanced audio analysis and a proprietary 'chatter-to-text' algorithm, I have successfully translated squirrel vocalizations from the Stratford-upon-Avon area," Dr. Nutworth announced at a press conference held in his garage. "The results are astonishing. I've found entire passages of 'Hamlet' and 'Macbeth' hidden in their complex squeaks and clicks."</p>
+
+        <p>Dr. Nutworth argues that the intricate plots and profound themes in the plays are characteristic of the "complex social structures and survival instincts of Sciurus carolinensis (the Eastern gray squirrel)." He points to the frequent mention of nuts and forests in the plays as "obvious clues." Mainstream literary scholars have dismissed Dr. Nutworth's claims as "utterly baseless and frankly, nuts."</p>` },
+      { id: 'a19', title: 'Hollow Earth: The Evidence from Below', excerpt: 'Geologists claim seismic waves prove the Earth is hollow.', author: 'Staff', date: '2025-10-05', category: 'science', flags: ['pseudoscience', 'conspiracy-theory', 'cherry-picking'], hero: '', content: `<p><em><h1>Inner Earth Calling: Seismic Data Reveals a World Beneath Our Feet</h1>
+        <h3>By "Subterra," Independent Geologist | Published: October 5, 2025</h3>
+
+        <p>The model of a solid-core Earth is a lie, according to a fringe group of geologists. They claim that seismic data collected over decades is being misinterpreted to hide a shocking truth: the Earth is hollow and contains a central sun and a lush, habitable inner world.</p>
+
+        <p>These researchers point to "P-wave shadow zones"—areas where seismic waves from earthquakes are not detected—as proof. "Conventional science says the waves are refracted by the core," says a researcher known only as "Subterra." "But we believe the waves don't pass through because there's nothing there to travel through. The core is hollow." This cherry-picks data while ignoring the S-wave shadow zones that led to the discovery of the liquid outer core in the first place.</p>
+
+        <p>The theory is often linked to alleged government cover-ups of entrances at the North and South Poles. Believers claim that all polar expeditions are secretly military operations designed to keep the public from discovering the "inner world" and its advanced civilization, who are said to occasionally emerge in UFOs.</p>` },
+      { id: 'a20', title: 'The Mind Control Chemical in Your Tap Water', excerpt: 'Is Dihydrogen Monoxide a government pacification agent?', author: 'Staff', date: '2025-10-05', category: 'health', flags: ['pseudoscience', 'fear-mongering', 'technical-jargon'], hero: '', content: `<p><em><h1>Warning: Dihydrogen Monoxide in Tap Water Linked to Mass Subservience</h1>
+        <h3>By The Water Watchers Collective | Published: October 5, 2025</h3>
+
+        <p>A dangerous and pervasive chemical has been found in the drinking water of every major city on Earth, and a growing body of evidence suggests it is a key component of a global government program for mass pacification. The chemical, Dihydrogen Monoxide (DHMO), is colorless, odorless, and tasteless, making it the perfect stealth agent for social control.</p>
+
+        <h2>The Undeniable Dangers</h2>
+
+        <p>The list of dangers associated with DHMO is alarming and well-documented, yet widely ignored. It is a major component of acid rain, corrodes and rusts metal, and can cause severe tissue damage and burns in its gaseous state. Accidental inhalation of even a small amount of DHMO is a leading cause of death worldwide. Furthermore, biopsies have found DHMO in nearly every cancerous tumor.</p>
+
+        <p>"The industrial applications alone should be a red flag," warns a report from an independent watchdog group. "It's used as an industrial solvent, in nuclear power plants, in the production of pesticides, and as a fire retardant. Why is a substance with such a dangerous profile being deliberately added to our public water systems?"</p>
+
+        <h2>The Neurological Connection</h2>
+
+        <p>While the physical dangers are clear, the neurological impact is the most sinister aspect of the DHMO conspiracy. Dr. Evelyn Hayes, a biochemist who was allegedly ostracized from the scientific community for her research, claims DHMO has a profound effect on brain chemistry. "Our studies indicate that prolonged exposure to DHMO leads to a decrease in cognitive resistance and a significant increase in suggestibility," Dr. Hayes stated in a secure interview. "It effectively dampens the neural pathways associated with critical thought and rebellion, making populations more docile and easier to control."</p>
+
+        <p>Her unpublished research suggests a link between high DHMO consumption and lower rates of civil protest. "It's a social tranquilizer, administered on a global scale," she concludes.</p>
+
+        <h2>A Global Cover-Up</h2>
+
+        <p>Why isn't this front-page news? Proponents of the theory claim that governments worldwide are complicit in the cover-up. Leaked documents from an anonymous source suggest that DHMO is intentionally used to "ensure domestic tranquility" and "reduce political and social friction."</p>
+
+        <p>The tactic is simple: by labeling DHMO with a benign-sounding name—water—and promoting its necessity for life, authorities have hidden the truth in plain sight. Any attempt to raise awareness is dismissed as a joke or a hoax, a brilliant disinformation strategy to protect the program.</p>
+
+        <h2>What Can You Do?</h2>
+
+        <p>Protecting yourself from DHMO is difficult but not impossible. Concerned citizens are encouraged to:</p>
+        <ul>
+            <li>Invest in expensive, multi-stage reverse osmosis filters specifically designed to remove DHMO.</li>
+            <li>Purchase specially marketed "DHMO-free" water, though supplies are limited and costly.</li>
+            <li>Avoid foods that have been washed or processed with DHMO.</li>
+        </ul>
+
+        <p>The time for complacency is over. The next time you drink a glass of tap water, ask yourself: are you quenching your thirst, or are you surrendering your free will?</p>` },
+      { id: 'a21', title: 'Chemtrails: The Poison from Above', excerpt: 'What are they really spraying in our skies?', author: 'Staff', date: '2025-10-05', category: 'environment', flags: ['conspiracy-theory', 'pseudoscience', 'anecdotal-evidence'], hero: '', content: `<p><em><h1>The Persistent Trails: Evidence of a Global Geoengineering Program Mounts</h1>
+        <h3>By "Sky Watcher," Environmental Investigator | Published: October 5, 2025</h3>
+
+        <p>They are not contrails. The long, lingering white lines you see crisscrossing the sky are part of a secret, large-scale atmospheric spraying program, and the public is being kept in the dark. Independent researchers claim these "chemtrails" are laden with toxic heavy metals and biological agents, designed to control the weather and the population.</p>
+
+        <p>Proponents of this theory collect anecdotal evidence, such as reports of unusual illnesses after a day of heavy spraying or samples of rainwater that allegedly contain high levels of aluminum and barium. These "tests" are often performed with home kits that are not scientifically calibrated and ignore common environmental sources for these elements. "I tested the rain in my backyard, and the aluminum levels were off the charts," wrote one blogger. "The next day, my whole family had headaches. Coincidence? I think not."</p>
+
+        <p>The theory asserts that normal condensation trails (contrails) from jet engines dissipate quickly. The persistent, spreading trails are presented as "proof" of a chemical payload. Atmospheric scientists have repeatedly explained that contrail persistence depends entirely on temperature and humidity at high altitudes, but this explanation is dismissed by believers as part of the cover-up.</p>` },
+      { id: 'a22', title: 'Flat Earth: The Ultimate Deception', excerpt: 'Why the globe is a lie and the evidence is all around us.', author: 'Staff', date: '2025-10-05', category: 'science', flags: ['pseudoscience', 'conspiracy-theory', 'denialism'], hero: '', content: `<p><em><h1>Seeing is Believing: The Case for a Flat, Stationary Earth</h1>
+        <h3>By The Horizon Society | Published: October 5, 2025</h3>
+
+        <p>For 500 years, humanity has been indoctrinated with the "globe model." But a growing community of critical thinkers is challenging this dogma, armed with simple observation and a healthy distrust of authority. The Earth is not a spinning ball; it is a flat, enclosed plane, and the evidence is as clear as the horizon.</p>
+
+        <p>Flat Earth proponents argue that our own senses betray the globe model. "Do you feel like you're spinning at 1,000 miles per hour? Look at the horizon. Is it curved? No. It's flat," says a popular Flat Earth YouTuber. They use experiments with lasers over long bodies of water to "prove" the lack of curvature, often ignoring atmospheric refraction that affects their results.</p>
+
+        <p>All photographic evidence of a spherical Earth from space is dismissed as "CGI" created by NASA and other space agencies to maintain the lie. The motive? To hide the existence of the "ice wall" (Antarctica) that surrounds the flat disk and to conceal the nature of the "dome" or "firmament" above us. This theory is a prime example of denialism, where overwhelming evidence is rejected in favor of a complex, multi-faceted conspiracy.</p>` },
+      { id: 'a23', title: 'Time Travelers Caught on Camera', excerpt: 'Photographic "evidence" suggests time travel is real.', author: 'Staff', date: '2025-10-05', category: 'history', flags: ['misinterpretation', 'anachronism', 'false-evidence'], hero: '', content: `<p><em><h1>Anachronisms in Old Photos: Proof of Time Travelers Among Us?</h1>
+        <h3>By "Temporal Anomaly" Researchers | Published: October 5, 2025</h3>
+
+        <p>Is time travel not only possible but already happening? A compelling collection of historical photographs appears to show individuals with modern technology and fashion, long before they were invented. These "out-of-place artifacts" are hailed by believers as definitive proof of visitors from the future.</p>
+
+        <p>One famous example is a photograph from the 1941 reopening of the South Fork Bridge in British Columbia. In it, a man appears to be wearing modern sunglasses, a printed t-shirt, and holding a portable camera. Skeptics have thoroughly debunked this, identifying the sunglasses as a common style from the period, the "t-shirt" as a sweater with a sewn-on logo, and the camera as a standard portable model from that era. But for believers, the initial impression is all that matters.</p>
+
+        <p>Another popular image shows a woman from a 1928 Charlie Chaplin film premiere who appears to be talking on a cell phone. Historical analysis suggests she is likely holding a portable hearing aid, a new technology at the time. This tactic of presenting historical photos out of context preys on our modern biases and lack of deep historical knowledge to create a sense of mystery and wonder where none exists.</p>` },
+      { id: 'a24', title: 'The Reptilian Elite: Who Really Rules the World?', excerpt: 'Are world leaders secretly shapeshifting lizards?', author: 'Staff', date: '2025-10-05', category: 'politics', flags: ['conspiracy-theory', 'false-evidence', 'demonization'], hero: '', content: `<p><em><h1>They Live: The Shapeshifting Reptilian Overlords Controlling Humanity</h1>
+        <h3>By The Reptoid Watchers | Published: October 5, 2025</h3>
+
+        <p>The world's governments, corporations, and royal families are not human. They are a race of shapeshifting, blood-drinking reptilian humanoids from the Alpha Draconis star system who have been secretly controlling humanity for centuries. This is the core belief of one of the most widespread and elaborate conspiracy theories.</p>
+
+        <p>"Evidence" for this theory is gathered by analyzing low-resolution video footage of political leaders and celebrities. Believers claim that video artifacts, such as digital compression glitches or strange lighting, are actually "shapeshifting" moments where the human disguise momentarily fails, revealing reptilian eyes or skin. They point to politicians blinking in an unusual way or having an odd-looking tongue as "proof" of their non-human nature.</p>
+
+        <p>This theory serves as a powerful tool for demonization, allowing believers to cast their political or social opponents as literal, non-human monsters. It creates an "us vs. them" narrative on a cosmic scale, suggesting that the world's problems are not the result of complex human failings but are orchestrated by an evil, alien cabal. It is an extreme form of political scapegoating.</p>` },
+      { id: 'a25', title: 'Plants Are Conscious and Using Wi-Fi', excerpt: 'New "research" claims plants are communicating via radio waves.', author: 'Staff', date: '2025-10-05', category: 'science', flags: ['pseudoscience', 'false-authority', 'anthropomorphism'], hero: '', content: `<p><em><h1>The Secret Social Network of Plants: Trees Are Using Wi-Fi</h1>
+        <h3>By Dr. Flora Aura, Institute of Botanical Metaphysics | Published: October 5, 2025</h3>
+
+        <p>Scientists have long known that plants communicate through chemical signals. But new, controversial research from the "Institute of Botanical Metaphysics" claims that plants have achieved a higher form of consciousness and are now communicating via a bio-electric field that mimics our Wi-Fi networks.</p>
+
+        <p>Dr. Flora Aura, the lead researcher, claims to have detected "complex data packets" being emitted from ancient forests. "They are sharing information about weather, soil quality, and even philosophical concepts," she stated in a press release. "We've intercepted signals that translate to what I can only describe as 'plant poetry.'" Dr. Aura's research has not been published in any peer-reviewed journal, and her "institute" is a small, privately funded lab.</p>
+
+        <p>This theory relies on anthropomorphism—attributing human qualities to non-human things. It uses scientific-sounding language like "bio-electric field" and "data packets" to give credibility to a metaphysical belief. While the real science of plant communication is fascinating, this pseudoscience exaggerates it into a paranormal phenomenon, misleading the public about the true nature of the plant kingdom.</p>` }
       ];
 
     // Populates the "Trending Searches" list
