@@ -1,5 +1,4 @@
-from flask import Flask, render_template, send_from_directory, request, url_for
-import os
+from flask import Flask, send_from_directory, request
 
 app = Flask(__name__)
 
@@ -21,8 +20,8 @@ def root():
     else:
         client_ip = request.environ['HTTP_X_FORWARDED_FOR'].split(',')[0].strip()
     log_ip_address(client_ip)
-    
-    return render_template('index.html')
+
+    return send_from_directory('', 'index.html')
 
 
 @app.route('/script.js')
