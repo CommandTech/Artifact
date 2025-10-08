@@ -33,5 +33,9 @@ def script():
 def style():
     return send_from_directory('', 'style.css')
 
+@app.route('/images/<filename>')
+def images(filename):
+    return send_from_directory('images', filename)
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
