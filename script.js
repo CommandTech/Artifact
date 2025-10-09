@@ -538,7 +538,6 @@ const ARTICLES = [
 
     // Populates the "Trending Searches" list
     const TRENDING = [
-      'theory',
       'government',
       'study',
       'world',
