@@ -2,11 +2,13 @@
 
 This project is a web-based artifact designed to educate users on identifying misinformation and AI-generated content online. It presents a simulated news feed containing articles with various "red flags."
 
+NOTE: Our hosting solution gave out at the last minute, so we decided to put a static version of the site on Github Pages instead. This excludes the Flask backend; any mentions of Flask below refer to the server-included version of the site. The file structure was also modified (`index.html` not being inside of `templates` anymore).
+
 ## How the Project Meets Rubric Criteria
 
 ### Real World Artifact
 
-*   **Distribution:** The website is a live Flask application. To track distribution, the [`app.py`](app.py) backend includes a function [`log_ip_address`](app.py) that records the unique IP address of each visitor in [`viewed.txt`](viewed.txt). This provides tangible evidence of viewership by people outside the class.
+*   **Distribution:** The website link was shared with my (Aaron) past high school CS teacher, who shared the website with her students, as we feel that the younger generations are at the biggest risk of AI-fueled misinformation.
 *   **Accessibility:** As a standard web application, the artifact is accessible to anyone with a web browser. The content is designed for a general audience, addressing the universally relevant topic of media literacy.
 
 ### Relevant to Course Topic
