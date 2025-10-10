@@ -1,4 +1,5 @@
-from flask import Flask, send_from_directory, request
+from flask import Flask, send_from_directory, render_template, request, url_for
+import os
 
 app = Flask(__name__)
 
@@ -22,6 +23,13 @@ def root():
     log_ip_address(client_ip)
 
     return send_from_directory('', 'index.html')
+
+app.config['PDF_FOLDER'] = os.path.join(app.root_path, 'pdfs/')
+
+# Not actually used :/
+@app.route('/pdfs/<filename>')
+def serve_pdf(filename):
+    return send_from_directory(app.config['PDF_FOLDER'], filename)
 
 
 @app.route('/script.js')
